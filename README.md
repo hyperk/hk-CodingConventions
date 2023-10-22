@@ -105,3 +105,7 @@ For C++ use clang-format  with custom HK format here
 - Getters and setters should be thread safe
 - Compiler warnings should be addressed, rather than ignored (all warnings are errors)
 - Define a set of standard compiler flags
+- Avoid C style arrays, use standard containers e.g. vectors
+- Centralised **#define** constants to avoid conflicts
+
+
