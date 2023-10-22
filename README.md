@@ -95,7 +95,7 @@ For C++ use clang-format  with custom HK format here
 
 ## Other recommendations include use of:
 - Python >3.8
-- Use of Modern c++ practices
+- Use of Modern c++ practices (max C++17)
 - Smart pointers 
 - Avoid using deprecated features
 - Namespaces
@@ -104,7 +104,7 @@ For C++ use clang-format  with custom HK format here
 - US spellings 
 - Getters and setters should be thread safe
 - Compiler warnings should be addressed, rather than ignored (all warnings are errors)
-- Define a set of standard compiler flags
+- Defined a set of standard compiler flags (in progress)
 - Avoid C style arrays, use standard containers e.g. vectors
 - Centralised **#define** constants to avoid conflicts
 
